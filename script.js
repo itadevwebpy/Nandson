@@ -47,5 +47,7 @@ function enviarWhatsApp() {
 
   const numero = "5511981524677";
   const url = `https://wa.me/${numero}?text=${mensagem}`;
+  window.open(url, "_blank");
+  
   
 }
